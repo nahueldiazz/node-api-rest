@@ -12,7 +12,7 @@ const swaggerDefinition = {
         url: "http://localhost:3000/api",
       },
       {
-        url: "https://node-api-rest-production-b498.up.railway.app/api",
+        url: "https://node-api-rest-five.vercel.app/api",
       }
     ],
     components: {
