@@ -2,7 +2,6 @@ const express = require('express')
 const cors = require('cors')
 require('dotenv').config()
 const dbConnect = require('./config/mongo')
-const { dbConnectMySql } = require('./config/mysql')
 const app = express()
 const ENGINE_DB = process.env.ENGINE_DB
 const swaggerUI = require('swagger-ui-express')
@@ -30,6 +29,5 @@ if(NODE_ENV !== 'test'){
     })
 }
 
-ENGINE_DB === 'nosql' ?  dbConnect() :  dbConnectMySql()
-
+ dbConnect() 
 module.exports = app
