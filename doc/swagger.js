@@ -9,7 +9,7 @@ const swaggerDefinition = {
     },
     servers: [
       {
-        url: "http://localhost:3001/api",
+        url: "http://localhost:3000/api",
       },
       {
         url: "https://node-api-rest-production-b498.up.railway.app/api",

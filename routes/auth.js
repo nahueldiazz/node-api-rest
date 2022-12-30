@@ -3,7 +3,7 @@ const { loginCtrl, registerCtrl } = require('../controllers/auth')
 const { validatorLoguinItem, validatorResgisterItem } = require('../validators/auth')
 const router = express.Router()
 /**
- * http://localhost:3001/api
+ * http://localhost:3000/api
  * 
  * Route register new user
  * @openapi
